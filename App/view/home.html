@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoElite — Loja Virtual de Carros de Luxo</title>
+    <link rel="stylesheet" href="../resources/css/variables.css" />
+    <link rel="stylesheet" href="../resources/css/header.css" />
+    <link rel="stylesheet" href="../resources/css/footer.css" />
+    <link rel="stylesheet" href="../resources/css/home.css" />
+</head>
+
+<body>
+
+    <header>{{header}} </header>
+    <!-- ══ HERO ══ -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-text">
+                <p class="hero-label">Excelência Automotiva</p>
+                <h1 class="hero-title">
+                    Onde cada carro<br>
+                    conta uma <em>história</em><br>
+                    de precisão.
+                </h1>
+                <p class="hero-desc">
+                    Curadoria exclusiva de veículos premium, importados e esportivos.
+                    Transparência, garantia e uma experiência de compra que combina com o nível do que você merece.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#featured" class="btn-primary">
+                        Explorar catálogo
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg>
+                    </a>
+                    <a href="signin/signin.html" class="btn-outline">Criar conta grátis</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <svg class="hero-car-svg" viewBox="0 0 700 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Body -->
+                    <path d="M80 210 L100 160 L160 110 L260 85 L400 80 L520 105 L600 160 L620 210 Z" fill="#1a1a1a"
+                        stroke="#c9a84c" stroke-width="1" />
+                    <!-- Windshield -->
+                    <path d="M160 110 L200 87 L380 82 L420 108 Z" fill="#0d1520" stroke="#c9a84c" stroke-width="0.7"
+                        opacity="0.8" />
+                    <!-- Rear window -->
+                    <path d="M420 108 L500 105 L540 135 L440 138 Z" fill="#0d1520" stroke="#c9a84c" stroke-width="0.7"
+                        opacity="0.7" />
+                    <!-- Door lines -->
+                    <line x1="280" y1="85" x2="278" y2="200" stroke="#c9a84c" stroke-width="0.6" opacity="0.5" />
+                    <line x1="420" y1="82" x2="418" y2="198" stroke="#c9a84c" stroke-width="0.6" opacity="0.5" />
+                    <!-- Side detail -->
+                    <path d="M100 170 L600 168" stroke="#c9a84c" stroke-width="0.4" opacity="0.3" />
+                    <!-- Wheels -->
+                    <ellipse cx="190" cy="218" rx="58" ry="28" fill="#111" stroke="#c9a84c" stroke-width="1" />
+                    <ellipse cx="190" cy="218" rx="36" ry="17" fill="#1a1a1a" stroke="#c9a84c" stroke-width="0.7"
+                        opacity="0.8" />
+                    <ellipse cx="190" cy="218" rx="16" ry="8" fill="#0d0d0d" stroke="#c9a84c" stroke-width="0.5" />
+                    <ellipse cx="510" cy="218" rx="58" ry="28" fill="#111" stroke="#c9a84c" stroke-width="1" />
+                    <ellipse cx="510" cy="218" rx="36" ry="17" fill="#1a1a1a" stroke="#c9a84c" stroke-width="0.7"
+                        opacity="0.8" />
+                    <ellipse cx="510" cy="218" rx="16" ry="8" fill="#0d0d0d" stroke="#c9a84c" stroke-width="0.5" />
+                    <!-- Headlights -->
+                    <path d="M598 160 L622 168 L620 188 L598 184 Z" fill="#c9a84c" opacity="0.6" />
+                    <path d="M82 168 L62 176 L64 192 L84 188 Z" fill="rgba(201,168,76,0.3)" />
+                    <!-- Ground reflection -->
+                    <ellipse cx="350" cy="246" rx="280" ry="14" fill="url(#glow)" opacity="0.4" />
+                    <defs>
+                        <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" stop-color="#c9a84c" stop-opacity="0.5" />
+                            <stop offset="100%" stop-color="#c9a84c" stop-opacity="0" />
+                        </radialGradient>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <svg width="16" height="20" viewBox="0 0 16 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                <rect x="1" y="1" width="14" height="22" rx="7" />
+                <circle cx="8" cy="7" r="2" fill="currentColor" stroke="none" />
+            </svg>
+            Role para ver
+        </div>
+    </section>
+
+    <!-- ══ FEATURED CARS ══ -->
+    <section id="featured">
+        <div class="section">
+            <div class="section-header">
+                <div>
+                    <p class="section-label">Seleção Especial</p>
+                    <h2 class="section-title">Destaques do Catálogo</h2>
+                </div>
+                <a href="#" class="section-link">
+                    Ver todos
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+            </div>
+            <div class="cars-grid">
+
+                <!-- Card 1 -->
+                <article class="car-card">
+                    <div class="card-img">
+                        <div class="card-badge">Novo</div>
+                        <svg width="200" height="90" viewBox="0 0 400 160" fill="none">
+                            <path d="M40 110 L60 70 L100 45 L200 38 L300 42 L340 65 L360 110 Z" fill="#222"
+                                stroke="#c9a84c" stroke-width="0.8" />
+                            <ellipse cx="110" cy="116" rx="32" ry="14" fill="#1a1a1a" stroke="#c9a84c"
+                                stroke-width="0.8" />
+                            <ellipse cx="290" cy="116" rx="32" ry="14" fill="#1a1a1a" stroke="#c9a84c"
+                                stroke-width="0.8" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-brand">Porsche</p>
+                        <h3 class="card-name">911 Carrera S</h3>
+                        <div class="card-specs">
+                            <div class="spec"><span class="spec-val">450 cv</span><span class="spec-key">Potência</span>
+                            </div>
+                            <div class="spec"><span class="spec-val">3.8 s</span><span class="spec-key">0–100
+                                    km/h</span></div>
+                            <div class="spec"><span class="spec-val">308 km/h</span><span class="spec-key">Vel.
+                                    máx.</span></div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                R$ 890.000
+                                <small>ou em até 60x</small>
+                            </div>
+                            <button class="card-action" aria-label="Favoritar">
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="car-card">
+                    <div class="card-img">
+                        <div class="card-badge" style="background:#e74c3c">Exclusivo</div>
+                        <svg width="200" height="90" viewBox="0 0 400 160" fill="none">
+                            <path d="M30 108 L55 60 L110 35 L210 30 L310 34 L355 58 L370 108 Z" fill="#1a1010"
+                                stroke="#c9a84c" stroke-width="0.8" />
+                            <ellipse cx="115" cy="114" rx="30" ry="13" fill="#1a1a1a" stroke="#c9a84c"
+                                stroke-width="0.8" />
+                            <ellipse cx="295" cy="114" rx="30" ry="13" fill="#1a1a1a" stroke="#c9a84c"
+                                stroke-width="0.8" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-brand">Ferrari</p>
+                        <h3 class="card-name">Roma Spider</h3>
+                        <div class="card-specs">
+                            <div class="spec"><span class="spec-val">620 cv</span><span class="spec-key">Potência</span>
+                            </div>
+                            <div class="spec"><span class="spec-val">3.4 s</span><span class="spec-key">0–100
+                                    km/h</span></div>
+                            <div class="spec"><span class="spec-val">320 km/h</span><span class="spec-key">Vel.
+                                    máx.</span></div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                R$ 2.850.000
+                                <small>Consulte condições</small>
+                            </div>
+                            <button class="card-action" aria-label="Favoritar">
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="car-card">
+                    <div class="card-img">
+                        <div class="card-badge" style="background:#27ae60">Elétrico</div>
+                        <svg width="200" height="90" viewBox="0 0 400 160" fill="none">
+                            <path d="M50 112 L70 68 L120 42 L200 35 L290 38 L340 62 L365 112 Z" fill="#0d1a1a"
+                                stroke="#c9a84c" stroke-width="0.8" />
+                            <ellipse cx="120" cy="118" rx="30" ry="13" fill="#1a1a1a" stroke="#c9a84c"
+                                stroke-width="0.8" />
+                            <ellipse cx="295" cy="118" rx="30" ry="13" fill="#1a1a1a" stroke="#c9a84c"
+                                stroke-width="0.8" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-brand">Mercedes-Benz</p>
+                        <h3 class="card-name">EQS 580 4MATIC</h3>
+                        <div class="card-specs">
+                            <div class="spec"><span class="spec-val">523 cv</span><span class="spec-key">Potência</span>
+                            </div>
+                            <div class="spec"><span class="spec-val">4.3 s</span><span class="spec-key">0–100
+                                    km/h</span></div>
+                            <div class="spec"><span class="spec-val">770 km</span><span
+                                    class="spec-key">Autonomia</span></div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                R$ 1.490.000
+                                <small>ou em até 48x</small>
+                            </div>
+                            <button class="card-action" aria-label="Favoritar">
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>{{footer}}</footer>
+</body>
+
+</html>

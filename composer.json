@@ -1,0 +1,17 @@
+{
+    "name": "gust4/routes_php",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo",
+            "email": "eu.paulogustavocoitinho@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.6"
+    }
+}
